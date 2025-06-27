@@ -1,13 +1,12 @@
 
 ---
 
-# 🔍 Analytics Vidhya Free Courses - Smart Search
+# 🔍 Analytics Vidhya Free Courses - Fast Search
 
-Welcome to the **Smart Search Tool** for free courses on Analytics Vidhya! This project is designed to help users quickly find the most relevant courses based on their search terms, using the power of Large Language Models (LLMs) and semantic search technology. The tool is deployed on [Huggingface Spaces](https://huggingface.co/spaces), allowing easy access to anyone interested in exploring the free course catalog.
-
+Welcome to the **Fast Search Tool** for free courses on Analytics Vidhya! This project is designed to help users quickly find the most relevant courses based on their search terms, using the power of Large Language Models (LLMs) and semantic search technology. 
 ## 📜 Project Overview
 
-**Smart Search Tool** uses a pre-trained language model to generate course embeddings and calculate semantic similarity between user queries and course descriptions. The system performs a two-step search:
+**Fast Search Tool** uses a pre-trained language model to generate course embeddings and calculate semantic similarity between user queries and course descriptions. The system performs a two-step search:
 1. **Keyword Matching**: First, the tool searches for an exact keyword match in course titles.
 2. **Semantic Similarity**: If no keyword matches are found, the tool uses embeddings to perform a semantic similarity search, ensuring the most relevant courses are shown.
 
@@ -17,7 +16,6 @@ With this setup, users can find courses based on topics, keywords, or even gener
 
 - **Language Model**: [Sentence-Transformers](https://www.sbert.net/) (`all-MiniLM-L6-v2`) for embedding generation.
 - **Frontend Framework**: [Gradio](https://gradio.app/) for an interactive user interface.
-- **Deployment**: [Huggingface Spaces](https://huggingface.co/spaces) for easy accessibility.
 
 ## 🚀 Features
 
@@ -63,12 +61,7 @@ To run the tool locally, follow these steps:
 
 4. Access the tool locally at `http://localhost:7860`.
 
-## 🎨 Usage
 
-Simply enter a search term like "LLM" or "data science" into the search bar. The tool will display a list of the most relevant courses based on your query, providing course titles, descriptions, and direct links to the course pages.
-
-![Demo Image](DataScience.png)
-![Demo Image](LLM.png)
 
 ## 💡 Example Queries
 
@@ -87,15 +80,12 @@ Try the following queries to see how the tool performs:
 
 We welcome contributions! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## 🌐 Acknowledgments
 
 Special thanks to:
 - **[Analytics Vidhya](https://courses.analyticsvidhya.com)** for providing free educational resources.
-- **[Huggingface Spaces](https://huggingface.co/spaces)** for hosting our deployment.
+
 
 ---
 
